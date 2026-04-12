@@ -1,7 +1,7 @@
 class Accountant24 < Formula
   desc "Your personal AI accountant — plain-text bookkeeping with any LLM"
   homepage "https://github.com/machulav/accountant24"
-  version "0.2.0"
+  version "0.1.1"
   license "MIT"
 
   # Auto-installed when the user runs `brew install machulav/tap/accountant24`.
@@ -10,23 +10,23 @@ class Accountant24 < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/machulav/accountant24/releases/download/v0.2.0/accountant24-darwin-arm64.tar.gz"
-      sha256 "82397deef570340441ea7aa7c2372fd4332f16c84d1329c13601f4b971df20a6"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.1/accountant24-darwin-arm64.tar.gz"
+      sha256 "b394cf720ab71a46edd4bf4970b53b88a52769808a8d007dd93030ba237a139d"
     end
     on_intel do
-      url "https://github.com/machulav/accountant24/releases/download/v0.2.0/accountant24-darwin-x64.tar.gz"
-      sha256 "87915b6d2d29fc1a0afd07dbf705c5af434d0a88775f927dd3f8d445da17ed70"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.1/accountant24-darwin-x64.tar.gz"
+      sha256 "22474b359e169952dbcece5a63267e3ac6f92bd4de0dbfaef674bad9b8ec1949"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/machulav/accountant24/releases/download/v0.2.0/accountant24-linux-x64.tar.gz"
-      sha256 "2e6c77888d99eafec750f4b6d2a6541e9ed531e8bf4ecad34b8a97037d54ce21"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.1/accountant24-linux-x64.tar.gz"
+      sha256 "ae88b53cefa4b962374b7c081209daf41a0f2cee282562c3f2a73ac7bed5891e"
     end
     on_arm do
-      url "https://github.com/machulav/accountant24/releases/download/v0.2.0/accountant24-linux-arm64.tar.gz"
-      sha256 "2e9d72edd3af55808cb04237bdbf1e861894ade9baa515b7745eed743b8a37f3"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.1/accountant24-linux-arm64.tar.gz"
+      sha256 "52a2235ac45200be8ada25fb3249946d12470abd679132b1f4f37c43f2c42c45"
     end
   end
 
