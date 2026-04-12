@@ -11,22 +11,22 @@ class Accountant24 < Formula
   on_macos do
     on_arm do
       url "https://github.com/machulav/accountant24/releases/download/v0.2.0/accountant24-darwin-arm64.tar.gz"
-      sha256 "c2718ba40fcf9ffccd1905e22c48cce98013a5039d6c2071577a9d77d91cdc63"
+      sha256 "82397deef570340441ea7aa7c2372fd4332f16c84d1329c13601f4b971df20a6"
     end
     on_intel do
       url "https://github.com/machulav/accountant24/releases/download/v0.2.0/accountant24-darwin-x64.tar.gz"
-      sha256 "1d5d7c1091c7b291803b6f0582ff090de363296b230ecdefbd7a28e8ff0675c4"
+      sha256 "87915b6d2d29fc1a0afd07dbf705c5af434d0a88775f927dd3f8d445da17ed70"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/machulav/accountant24/releases/download/v0.2.0/accountant24-linux-x64.tar.gz"
-      sha256 "5ca5727f3515c6e2f160bf30d1ee3221488ef53e7d0172c8f21a3ffb6e9b0a27"
+      sha256 "2e6c77888d99eafec750f4b6d2a6541e9ed531e8bf4ecad34b8a97037d54ce21"
     end
     on_arm do
       url "https://github.com/machulav/accountant24/releases/download/v0.2.0/accountant24-linux-arm64.tar.gz"
-      sha256 "cb8fee9c7472b97932224194eda533c47a8b9cba1c5f7d8106af72cb5727ba44"
+      sha256 "2e9d72edd3af55808cb04237bdbf1e861894ade9baa515b7745eed743b8a37f3"
     end
   end
 
