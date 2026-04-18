@@ -1,32 +1,34 @@
 class Accountant24 < Formula
   desc "Your personal AI accountant — plain-text bookkeeping with any LLM"
   homepage "https://github.com/machulav/accountant24"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   # Auto-installed when the user runs `brew install machulav/tap/accountant24`.
   # This is the whole point of having a brew formula: no separate prereq step.
   depends_on "hledger"
+  depends_on "poppler"
+  depends_on "tesseract"
 
   on_macos do
     on_arm do
-      url "https://github.com/machulav/accountant24/releases/download/v0.1.4/accountant24-darwin-arm64.tar.gz"
-      sha256 "65e4eaa7cdb95472c3187dd9c18346a8654eb252d28f821c8d0385d7d460e2f9"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.5/accountant24-darwin-arm64.tar.gz"
+      sha256 "d53ee5f408ecb58bb4a618a09f82c5cfc75251a66cdf77f579428b201e5a36b6"
     end
     on_intel do
-      url "https://github.com/machulav/accountant24/releases/download/v0.1.4/accountant24-darwin-x64.tar.gz"
-      sha256 "19005a5cefc7dc85aa03c72da96d8782fb63c66e8ff10e618b9f5cd9d49c9aac"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.5/accountant24-darwin-x64.tar.gz"
+      sha256 "096e70390ee9ed44bd3bd5f4663c6eb5b46ac5aa7ffd7ae08e7da41e1fcec4b3"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/machulav/accountant24/releases/download/v0.1.4/accountant24-linux-x64.tar.gz"
-      sha256 "8ca8f7e9810012b496bf099302e30b6cbd4d0a9f526c8f111c311bcc4523fcbc"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.5/accountant24-linux-x64.tar.gz"
+      sha256 "222a4e33dc3992a1c8e2c121d44d2c5bcd76e343db18c6c6e415742afe5bb0fa"
     end
     on_arm do
-      url "https://github.com/machulav/accountant24/releases/download/v0.1.4/accountant24-linux-arm64.tar.gz"
-      sha256 "1cbb9660f105d39a29fd9b887bc375043b0b074c53da475a54ecc7642c8eefe2"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.5/accountant24-linux-arm64.tar.gz"
+      sha256 "ac6f9cb8ce1eea8f05c9124edb0253b948897fd8bedb59563f2fe6cad06b155a"
     end
   end
 
