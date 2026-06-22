@@ -1,7 +1,7 @@
 class Accountant24 < Formula
   desc "Your personal AI accountant — plain-text bookkeeping with any LLM"
   homepage "https://github.com/machulav/accountant24"
-  version "0.1.9"
+  version "0.1.10"
   license "MIT"
 
   # Auto-installed when the user runs `brew install machulav/tap/accountant24`.
@@ -12,23 +12,23 @@ class Accountant24 < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/machulav/accountant24/releases/download/v0.1.9/accountant24-darwin-arm64.tar.gz"
-      sha256 "5d7e893d84eabe71f2324e58dd25245362e5613a1d171b98476c207a774cf899"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.10/accountant24-darwin-arm64.tar.gz"
+      sha256 "fb5ea2eeb0f1f9ad4e2eb0d4f3014d4af381ceb4658a0529345cbb1d3de8ea05"
     end
     on_intel do
-      url "https://github.com/machulav/accountant24/releases/download/v0.1.9/accountant24-darwin-x64.tar.gz"
-      sha256 "8f9d2073a1754706afa0f0908dab00574f48e2ef9b6bcf312c1f8f1718d883cc"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.10/accountant24-darwin-x64.tar.gz"
+      sha256 "576ebda23ab59a258c0aecef3e6c05c2799beaa16f820e72616c345ec20c02fa"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/machulav/accountant24/releases/download/v0.1.9/accountant24-linux-x64.tar.gz"
-      sha256 "e29315dd09b1db14b7c51330714d07a3ca43cfc7e524092d0e7c7a5f47d777d7"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.10/accountant24-linux-x64.tar.gz"
+      sha256 "da90626abda9745da6c1523a8d5b7d572bc22ef64e31ad412be2e0e3ab17b9e1"
     end
     on_arm do
-      url "https://github.com/machulav/accountant24/releases/download/v0.1.9/accountant24-linux-arm64.tar.gz"
-      sha256 "fc452ac5a2b2a073e3945c35c54b1593d42e5f48442b4c06cb0c953e41f6b095"
+      url "https://github.com/machulav/accountant24/releases/download/v0.1.10/accountant24-linux-arm64.tar.gz"
+      sha256 "9f4dffffcbec6578127059b9c345a671728c6691f8cf6d80b0105bf30e299aed"
     end
   end
 
