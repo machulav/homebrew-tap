@@ -4,6 +4,10 @@ class Accountant24 < Formula
   version "0.1.10"
   license "MIT"
 
+  # The CLI distribution is retired; Accountant24 now ships as a macOS app.
+  # NOTE: update the date to the actual push date when publishing this commit.
+  disable! date: "2026-07-01", because: "is replaced by the Accountant24 macOS app: https://github.com/machulav/accountant24/releases"
+
   # Auto-installed when the user runs `brew install machulav/tap/accountant24`.
   # This is the whole point of having a brew formula: no separate prereq step.
   depends_on "hledger"
@@ -51,7 +55,7 @@ class Accountant24 < Formula
   end
 
   test do
-    assert_match(/./, shell_output("#{bin}/accountant24 --version", 0))
-    assert_match(/./, shell_output("#{bin}/a24 --version", 0))
+    assert_match(/./, shell_output("#{bin}/accountant24 --version"))
+    assert_match(/./, shell_output("#{bin}/a24 --version"))
   end
 end
